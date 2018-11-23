@@ -1,8 +1,8 @@
 const axios = require('axios');
-const analyzeImage = async context => {
+const describeImage = async context => {
   try {
     const response = await axios({
-      url: `${process.env.API_ENDPOINT}/analyze`,
+      url: `${process.env.API_ENDPOINT}/describe`,
       method: 'post',
       headers: {
         'Content-Type': 'application/json',
@@ -12,8 +12,7 @@ const analyzeImage = async context => {
         url: context.req.body.image
       },
       params: {
-        visualFeatures: context.req.body.visualFeatures,
-        details: context.req.body.details,
+        maxCandidates: context.req.body.maxCandidates,
         language: context.req.body.language
       }
     });
@@ -24,7 +23,7 @@ const analyzeImage = async context => {
   }
 };
 module.exports = async function(context) {
-  const result = await analyzeImage(context);
+  const result = await describeImage(context);
   context.res = {
     body: result.data
   };
