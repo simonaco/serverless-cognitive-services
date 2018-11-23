@@ -162,3 +162,9 @@ Photo by Charles Deluvio  on Unsplash
 ```
 </p>
 </details>
+
+## More resources
+
+1. API reference documentation [Computer Vision API](https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa/?wt.mc_id=github-readme-sicotin)
+
+1. Azure CLI commands for [Azure Cognitive Services](https://docs.microsoft.com/en-us/cli/azure/cognitiveservices?view=azure-cli-latest&wt.mc_id=github-readme-sicotin)
