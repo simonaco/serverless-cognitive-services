@@ -2,6 +2,8 @@
 
 This operation extracts a rich set of visual features based on the image content.
 
+[API Reference](https://westcentralus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fe/?wt.mc_id=github-readme-sicotin)
+
 ## Parameters
 
 1. visualFeatures (optional): Categories, ImageType, Faces, Tags, Description, Color, Adult

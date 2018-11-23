@@ -2,6 +2,8 @@
 
 This operation generates a description of an image in human readable language with complete sentences. The description is based on a collection of content tags, which are also returned by the operation. More than one description can be generated for each image. Descriptions are ordered by their confidence score. All descriptions are in English.
 
+[API Reference](https://westcentralus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fe/?wt.mc_id=github-readme-sicotin)
+
 ## Parameters
 
 1. maxCandidates (optional): any number (i.e. 1)
