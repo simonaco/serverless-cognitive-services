@@ -44,7 +44,7 @@ Sample json request body:
 
 ```json
 {
-  "image": "https://i.imgur.com/mWGI4Ms.jpg",
+  "image": "https://sicotinslides.blob.core.windows.net/slides/charles-deluvio-540415-unsplash.jpg",
   "visualFeatures": "Categories, ImageType, Faces, Tags, Description, Color, Adult",
   "details": "Celebrities",
   "language": "en"
