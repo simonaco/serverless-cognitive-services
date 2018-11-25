@@ -3,7 +3,7 @@
   "Values": {
     "AzureWebJobsStorage": "",
     "FUNCTIONS_WORKER_RUNTIME": "node",
-    "API_ENDPOINT": "<your-endpoint-here>/vision/v2.0/analyze",
+    "API_ENDPOINT": "<your-endpoint-here>/vision/v2.0",
     "API_KEY": "your-api-key-here"
   }
 }
