@@ -28,6 +28,20 @@ az cognitiveservices account show -n serverless-cvs -g serverlesscognitiveservic
 
 Install npm dependencies by running `npm i`. To run the project in VS Code click on the debug icon and then click start Debugging. This will start the Azure Functions runtime and generate URLs of this form [http://localhost:7071/api/analyze-image](http://localhost:7071/api/analyze-image)
 
+## Test API
+
+Deployed application at:
+
+1. [Analyze Image](https://serverlesscv.azurewebsites.net/api/analyze-image)
+
+1. [Describe Image](https://serverlesscv.azurewebsites.net/api/describe-image)
+
+1. [Face Detect](https://serverlesscv.azurewebsites.net/api/face-detect)
+
+1. [OCR](https://serverlesscv.azurewebsites.net/api/ocr)
+
+1. [Tag Image](https://serverlesscv.azurewebsites.net/api/tag-image)
+
 ## More resources
 
 1. API reference documentation [Computer Vision API](https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa/?wt.mc_id=github-readme-sicotin)
