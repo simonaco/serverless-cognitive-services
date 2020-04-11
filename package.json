@@ -1,15 +1,13 @@
 {
-  "name": "computer-vision",
+  "name": "serverless-cognitive-services",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0"
-  }
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {}
 }

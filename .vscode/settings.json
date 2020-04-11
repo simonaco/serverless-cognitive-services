@@ -1,12 +1,13 @@
 {
-  "azureFunctions.projectRuntime": "~2",
+  "azureFunctions.projectRuntime": "~3",
   "azureFunctions.projectLanguage": "JavaScript",
   "azureFunctions.templateFilter": "Verified",
   "azureFunctions.deploySubpath": ".",
-  "azureFunctions.preDeployTask": "installExtensions",
+  "azureFunctions.preDeployTask": "npm prune",
   "files.exclude": {
     "obj": true,
     "bin": true
   },
-  "debug.internalConsoleOptions": "neverOpen"
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.postDeployTask": "npm install"
 }
